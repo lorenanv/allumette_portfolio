@@ -1,0 +1,312 @@
+body {
+    margin: 0px;
+    font-family: "Montserrat", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+
+#banner{
+    width: 100%;
+    height: 150px;
+    background-image: url(./../assets/banner.png);
+    position: absolute;
+    z-index: -1;
+}
+
+#logo{
+    margin-top: 14px;
+    width: 120px;
+    height: 120px;
+    background-image: url(./../assets/logo-flame-white.png);
+    background-size: cover;
+    position: absolute;
+    z-index: 0;
+    left: 50px;
+}
+
+#navbar{
+    display:grid;
+    grid-template-columns: repeat(5, auto);
+    position: absolute;
+    z-index: 0;
+    top: 66px;
+    left: 230px;
+}
+
+.navbar-buttons a{
+  font-weight: 500;
+  margin-right: 60px;
+}
+
+.navbar-buttons:hover{
+    color: black;
+    transition-duration: 0.5s;
+}
+
+a:hover{
+    color: black;
+    transition-duration: 0.5s;}
+
+#cuerpo{
+    width: 100%;
+    height: 950px;
+}
+
+#icono-home{
+    height: 690px;
+    margin-top: 218px;
+    margin-left: 1270px;
+}
+
+#imagotipo{
+    width: 750px;
+    position: absolute;
+    z-index: 0;
+    top: 300px;
+    left: 250px;
+    background-size: cover;
+}
+
+.fin-inicio{
+    position: absolute;
+    z-index: 0;
+    top: 1000px;
+    width: 100%;
+    height: 270px;
+    background-color: #c63f14;
+}
+
+
+#social-media{
+    margin-left: 47%;
+    margin-top: 30px;
+}
+
+.fa-instagram{
+    font-size: 30px;
+    color: white;
+}
+
+.fa-linkedin{
+    font-size: 28px;
+    color: white;
+    margin-left: 8px;
+}
+
+.fa-vimeo{
+    font-size: 28px;
+    color: white;
+    margin-left: 8px;
+
+}
+
+#aviso-legal{
+    text-align: center;
+    margin-top: 50px;
+    text-decoration: underline;
+}
+
+.politica-privacidad{margin-left: 15px;}
+.cookies{margin-left: 15px;}
+
+#direccion{
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+.titulo-galeria{
+    position: absolute;
+    top: 165px;
+    left: 42%;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+#galeria{
+    position: absolute;
+    margin-top: 250px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 6px;
+}
+
+.gallery{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#video{
+    position: absolute;
+    z-index: 0;
+    top: 2840px;
+    left: 440px;
+}
+
+
+.fin-galeria{
+    position: absolute;
+    z-index: 0;
+    top: 3680px;
+    width: 100%;
+    height: 270px;
+    background-color: #c63f14;
+}
+
+.titulo-presupuesto{
+    position: absolute;
+    z-index: 0;
+    top: 200px;
+    left: 35%;
+    font-weight: 600;
+    font-size: 50px;
+}   
+
+ul{
+    position: absolute;
+    top: 320px;
+    left: 40%;
+    list-style: none;
+}
+
+li{ 
+    padding-bottom: 20px;
+}
+
+label{ 
+    display: inline-block;
+    width: 150px;
+    vertical-align: top;
+}
+
+#msg{
+    resize: none;
+}
+
+
+#enviar{
+    color: white;
+    background-color: #c63f14;
+    border: 15px solid #c63f14;
+    border-radius: 30px;
+    margin-left: 245px;
+    margin-top: 20px;
+}
+
+.fin-presupuesto{
+    margin-top: 800px;
+    position: absolute;
+    z-index: 0;
+    top: 130px;
+    width: 100%;
+    height: 270px;
+    background-color: #c63f14;
+}
+
+.titulo-contacto{
+    position: absolute;
+    z-index: 0;
+    top: 195px;
+    left: 38%;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+#cbox-label{
+   position: absolute;
+   width: auto;
+   top: 730px;
+   left: 800px;
+}
+
+
+#mapa{
+    margin-top: 350px;
+    margin-left: 1050px;
+}
+
+#contact-icons{
+    width: 300px;
+    position: absolute;
+    top: 430px;
+    left: 550px;
+    border: 30px solid #c63f14;
+    border-radius: 100px;
+    background-color: #c63f14;
+    color: white;
+    padding-inline: 20px;
+}
+
+.contact-name{
+    font-weight: 700;
+}
+.contact-name.hover{
+    color: white;
+}
+
+
+.fin-contacto{
+    margin-top: 146px;
+    position: absolute;
+    z-index: 0;
+    top: 785px;
+    width: 100%;
+    height: 270px;
+    background-color: #c63f14;
+}
+
+#portrait{
+    position: absolute;
+    top: 150px;
+    width: 800px;
+    height: 800px;
+}
+
+.titulo-about{
+    position: absolute;
+    z-index: 0;
+    top: 195px;
+    left: 900px;
+    font-weight: 600;
+    font-size: 50px;
+}
+.text-about{
+    width: 800px;
+    height: auto;
+    position: absolute;
+    z-index: 0;
+    top: 300px;
+    left: 950px;
+}
+
+.fin-about{
+    position: absolute;
+    z-index: 0;
+    top: 15px;
+    width: 100%;
+    height: 270px; 
+    background-color: #c63f14;
+    margin-top: 915px;
+}
+
+.destacar1{
+    font-weight: 600;
+    color: #c63f14;
+}
+
+.destacar2{
+    font-weight: 500;
+}
+
+#demoreel{
+    position: absolute;
+    z-index: 0;
+    top: 240px;
+    left: 70px;
+
+}

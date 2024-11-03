@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Lorena Allumette</title>
+
+    <!-- Icono en pestaña abierta-->
+    <link rel="icon" href="./../assets/fire-icon-noname.png">
+
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!--icons rrss-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="./../css/estilos.css">
+</head>
+
+<body>
+    <!--Encabezado-->
+    <header>
+        <div id="banner"></div>
+        <div id="logo"></div>
+
+        <!--Barra de navegación-->
+        <div id="navbar">
+            <div class="navbar-buttons"><a href="./../index.html">Inicio</a></div>
+            <div class="navbar-buttons"><a href="./../views/portfolio.html">Portfolio</a></div>
+            <div class="navbar-buttons"><a href="./../views/presupuesto.html">Presupuesto</a></div>
+            <div class="navbar-buttons"><a href="./../views/about.html">Sobre mí</a></div>
+            <div class="navbar-buttons"><a href="./../views/contacto.html">Contacto</a></div> 
+        </div>
+    </header>
+
+    <!--Cuerpo de la página "Presupuesto"-->
+    <main>
+
+        <div class="titulo-presupuesto">✴︎ Pide tu presupuesto ✴︎</div>
+        
+        <!--Formulario de presupuesto-->
+        <form method="POST" enctype="multipart/form-data">
+            <ul>
+                <li>
+                    <label for="name">Nombre</label>
+                        <input type="text" name="user_name" id="name" required>
+                    
+                </li>
+
+                <li>
+                    <label for="email">Email</label>
+                        <input type="email" name="user_email" id="email" required>
+                </li>
+
+                <li>
+                    <label for="tel">Teléfono</label>
+                        <input type="tel" name="user_telefono" id="tel">
+                </li>
+
+                <li>
+                    <label for="msg">Solicite más información</label>
+                    <textarea id="msg" name="user_text" rows="7" cols="30" maxlength="500"></textarea>
+                </li>
+
+                <li> 
+                    <input id="enviar" type="submit">
+                </li>
+
+            </ul>
+
+            <label id="cbox-label">
+                <input type="checkbox" id="cbox-privacy" value="cbox_privacy" checked required> Acepto la política de privacidad
+            </label>
+        </form>
+
+    </main>
+
+    <!--Pie de página-->
+    <footer class="fin-presupuesto">
+
+        <div id="social-media">
+            <a href="https://instagram.com/lorenallumette" target="_blank">
+                <i class="fa fa-instagram"></i>
+            </a>
+            <a href="https://vimeo.com/user208402128" target="_blank">
+                <i class="fa fa-vimeo"></i>
+            </a>
+            <a href="https://linkedin.com/in/lorenallumette" target="_blank">
+                <i class="fa fa-linkedin"></i>
+            </a>
+        </div>
+        
+        <!--Avisos legales y datos de la "empresa"-->
+        <div id="aviso-legal">
+            <a class="aviso" href="">Aviso legal</a>
+            <a class="politica-privacidad" href="">Política de privacidad</a>
+            <a class="cookies" href="">Cookies</a>
+        </div>
+
+        <div id="direccion">C/ Ramon Llull, 5. 46021 <br> Valencia, España
+        </div>
+       
+    </footer>
+
+</body>
+</html>
